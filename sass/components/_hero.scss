@@ -159,9 +159,10 @@
   .button {
     display: block;
     width: 20%;
-    margin: auto;
+    margin: 1em auto;
+    padding: .5em 2em;
     border: 2px solid $heroLink;
     background-color: $mutedCream;
-    margin-top: 1vh;
+    //margin-top: 1vh;
   }
 }
