@@ -45,8 +45,12 @@
   z-index: 1;
 }
 
-.cloud1,  .cloud2, .faq2{
+.cloud1,  .cloud2 {
   opacity: 0.8;
+  z-index: 5;
+}
+
+.faq2 {
   z-index: 5;
 }
 

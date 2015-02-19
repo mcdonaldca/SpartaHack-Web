@@ -462,12 +462,17 @@ body {
 }
 
 /* line 48, ../sass/components/_heroBackdrop.scss */
-.cloud1, .cloud2, .faq2 {
+.cloud1, .cloud2 {
   opacity: 0.8;
   z-index: 5;
 }
 
 /* line 53, ../sass/components/_heroBackdrop.scss */
+.faq2 {
+  z-index: 5;
+}
+
+/* line 57, ../sass/components/_heroBackdrop.scss */
 .cloud1 {
   position: absolute;
   width: 85%;
@@ -476,13 +481,13 @@ body {
   display: none;
 }
 @media (min-width: 600px) {
-  /* line 53, ../sass/components/_heroBackdrop.scss */
+  /* line 57, ../sass/components/_heroBackdrop.scss */
   .cloud1 {
     display: block;
   }
 }
 
-/* line 65, ../sass/components/_heroBackdrop.scss */
+/* line 69, ../sass/components/_heroBackdrop.scss */
 .cloud2 {
   position: absolute;
   width: 85%;
@@ -490,13 +495,13 @@ body {
   left: 30%;
 }
 @media (min-width: 600px) {
-  /* line 65, ../sass/components/_heroBackdrop.scss */
+  /* line 69, ../sass/components/_heroBackdrop.scss */
   .cloud2 {
     top: 70vh;
   }
 }
 
-/* line 76, ../sass/components/_heroBackdrop.scss */
+/* line 80, ../sass/components/_heroBackdrop.scss */
 .lil-cloud {
   position: absolute;
   width: 45%;
@@ -505,13 +510,13 @@ body {
   z-index: 6;
 }
 @media (min-width: 600px) {
-  /* line 76, ../sass/components/_heroBackdrop.scss */
+  /* line 80, ../sass/components/_heroBackdrop.scss */
   .lil-cloud {
     top: 60vh;
   }
 }
 
-/* line 88, ../sass/components/_heroBackdrop.scss */
+/* line 92, ../sass/components/_heroBackdrop.scss */
 .faq-head {
   position: absolute;
   width: 120%;
@@ -520,13 +525,13 @@ body {
   z-index: 8;
 }
 @media (min-width: 600px) {
-  /* line 88, ../sass/components/_heroBackdrop.scss */
+  /* line 92, ../sass/components/_heroBackdrop.scss */
   .faq-head {
     bottom: -10vh;
   }
 }
 
-/* line 100, ../sass/components/_heroBackdrop.scss */
+/* line 104, ../sass/components/_heroBackdrop.scss */
 .faq-tail {
   position: absolute;
   width: 120%;
@@ -535,7 +540,7 @@ body {
   z-index: 8;
 }
 
-/* line 108, ../sass/components/_heroBackdrop.scss */
+/* line 112, ../sass/components/_heroBackdrop.scss */
 .faq2 {
   position: absolute;
   width: 65%;
@@ -679,7 +684,7 @@ body {
 
 /* line 1, ../sass/components/_sponsors.scss */
 #sponsors {
-  background: #433830;
+  background: #AEDCC9;
   position: relative;
   padding: 10vh .5em;
   overflow: hidden;
@@ -690,7 +695,7 @@ body {
     padding-top: 40vh;
   }
 }
-/* line 11, ../sass/components/_sponsors.scss */
+/* line 13, ../sass/components/_sponsors.scss */
 #sponsors h1 {
   text-align: center;
   font-size: 350%;
@@ -698,21 +703,21 @@ body {
   text-transform: lowercase;
   padding: 0;
   margin-bottom: 1em;
-  color: #d8bca7;
+  color: #433830;
   text-decoration: underline;
   font-weight: bold;
 }
 @media (min-width: 550px) {
-  /* line 11, ../sass/components/_sponsors.scss */
+  /* line 13, ../sass/components/_sponsors.scss */
   #sponsors h1 {
     font-size: 500%;
   }
 }
-/* line 27, ../sass/components/_sponsors.scss */
+/* line 30, ../sass/components/_sponsors.scss */
 #sponsors article {
   position: relative;
 }
-/* line 31, ../sass/components/_sponsors.scss */
+/* line 34, ../sass/components/_sponsors.scss */
 #sponsors .media-grid {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -724,20 +729,20 @@ body {
           justify-content: center;
 }
 
-/* line 37, ../sass/components/_sponsors.scss */
+/* line 40, ../sass/components/_sponsors.scss */
 .ship {
   width: 100%;
   margin-top: -23%;
 }
 
-/* line 42, ../sass/components/_sponsors.scss */
+/* line 45, ../sass/components/_sponsors.scss */
 .sponsor-logo {
   display: block;
   width: 65%;
   margin: auto;
 }
 
-/* line 48, ../sass/components/_sponsors.scss */
+/* line 51, ../sass/components/_sponsors.scss */
 .waves {
   position: absolute;
   left: 0;
@@ -751,7 +756,7 @@ body {
   padding: .75em 0;
   font-family: Lato;
   font-weight: 100;
-  background-color: #211a16;
+  background-color: #3f332b;
   color: #F7E8DE;
   font-size: .9em;
 }

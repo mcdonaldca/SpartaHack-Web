@@ -1,5 +1,7 @@
 #sponsors {
-  background: $sponsorBackground;
+  //background: $sponsorBackground;
+  //background: #8CBEB2;
+  background: #AEDCC9;
   position: relative;
   padding: 10vh .5em;
   overflow: hidden;
@@ -15,7 +17,8 @@
     text-transform: lowercase;
     padding: 0;
     margin-bottom: 1em;
-    color: $sponsorText;
+    //color: $sponsorText;
+    color: #433830;
     text-decoration: underline;
     font-weight: bold;
 
